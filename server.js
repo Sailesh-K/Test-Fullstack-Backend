@@ -10,7 +10,7 @@ app.use('/uploads', express.static('uploads'));
 
 
 mongoose
-.connect("mongodb://127.0.0.1:27017/test")
+.connect("mongodb+srv://saileshkv29:2906@cluster0.iquvx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 .then(()=>{
     console.log("Connected");
 })
